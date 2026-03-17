@@ -29,6 +29,6 @@ module.exports = {
     JWT_REFRESH_SECRET:     process.env.JWT_REFRESH_SECRET,
     JWT_EXPIRES_IN:         process.env.JWT_EXPIRES_IN || '8h',
     JWT_REFRESH_EXPIRES_IN: process.env.JWT_REFRESH_EXPIRES_IN || '7d',
-    OPENAI_API_KEY:        process.env.OPENAI_API_KEY || '',
+    OPENAI_API_KEY:         process.env.OPENAI_API_KEY || '',
     FRONTEND_URL:           process.env.FRONTEND_URL || '*',
 };
